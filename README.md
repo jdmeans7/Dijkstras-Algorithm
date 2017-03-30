@@ -1,5 +1,6 @@
 # Dijkstras-Algorithm
 You have to set up your graph by adding all the edges between the vertices. You should just be able to use this code (You don't really need to use setLabel either):
+
     Graph g = new Graph(10);
 		g.setLabel(0, one);g.addEdge(0, 1); g.addEdge(0, 2);
 		g.setLabel(1, two);g.addEdge(1, 5); g.addEdge(1, 6); g.addEdge(1, 0);
